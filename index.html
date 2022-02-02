@@ -1,0 +1,808 @@
+
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+
+        <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+
+        <title>Cavegame.io - The Minecraft Survival .io Game</title>
+
+        <meta name="description" content="Cavegame.io is a 2d Minecraft Survival .io game! Mine for resources, craft tools, and survive. Create a team to build a base, fight players, and start a dynasty!">
+        
+        <link rel="shortcut icon" href="/asset/icon.ico">
+        <link rel="manifest" href="manifest.json">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@loonride" />
+        <meta name="twitter:title" content="Cavegame.io - The Minecraft .io Game" />
+        <meta name="twitter:description" content="Cavegame.io is a 2d Minecraft .io game. Mine gold, craft tools, and build a base!" />
+        <meta name="twitter:image" content="https://cavegame.io/asset/promo/mainbanner.png" />
+
+        <meta property="og:url"                content="https://cavegame.io/" />
+        <meta property="og:type"               content="game" />
+        <meta property="og:title"              content="Cavegame.io - The Minecraft .io Game" />
+        <meta property="og:description"        content="Cavegame.io is a 2d Minecraft .io game. Mine gold, craft tools, and build a base!" />
+        <meta property="og:image"              content="https://cavegame.io/asset/promo/mainbanner.png" />
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+        
+        <script>varaiptag;</script>
+
+        <script src="adsbygoogle.js"></script>
+        
+    <link href="main.3e0aa96cf5dbce57db1f.css" rel="stylesheet"></head>
+    <body>
+        <div id="preroll"></div>
+        <div id="loader">
+            <h3 id="loading-text">Loading...</h3>
+            <!-- <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+            </div> -->
+        </div>
+        <div id="menu-overlay">
+            <div id="secret-ip-container">
+                <input type="text" id="secret-ip" placeholder='Server Address' maxlength='100' spellcheck='false' autocomplete="off">
+            </div>
+            <div id="bottom-links">
+                <a href="/privacy">Privacy Policy</a><span>·</span>
+                <a href="/terms">Terms</a><span>·</span>
+                <a href="http://iogames.space" target="_blank">More .io Games</a><span>·</span>
+                <!-- <a href="https://iogames.live/" target="_blank">iogames.live</a><span>·</span> -->
+                <a href="/about">About</a><span>·</span>
+                <a href="https://cavegame.io">Cavegame.io</a><span>·</span>
+                <a href="https://mineroyale.io">MineRoyale.io</a><span>·</span>
+                <a href="https://sigmally.com" target="_blank">Sigmally.com (Agar.io private server)</a>
+            </div>
+
+            <!-- <div id="bl">
+                <div class="cont-2">
+                    <div id="mineroyale-io_300x250_bl"></div>
+                </div>
+                <div id="media-btns">
+                    <a href="https://www.reddit.com/r/mineroyale/" target="_blank"><i class="fab fa-reddit"></i></a>
+                    <a href="https://discord.gg/KaZxSZn" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.youtube.com/c/Loonride" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/loonride" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div id="tr">
+                <h3>Featured Video</h3>
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/tEcfWpjRGP4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="cont-2">
+                    <div id="mineroyale-io_300x250_tr"></div>
+                </div>
+            </div> -->
+
+            <table id="menu-table">
+            
+                <tr>
+                    <td>
+                        <div class="mini-modal modal limited">
+                            <div id="event-info">
+                                <div class="spinner">
+                                    <div class="double-bounce1"></div>
+                                    <div class="double-bounce2"></div>
+                                </div>
+
+                                <div class="text">
+                                    <span>There is a live minigame event going on now!</span>
+                                </div>
+                                
+                                <div class="btn">
+                                    <button id="play-event">Join Now</button>
+                                </div>
+                                
+                            </div>
+                            <h4 id="featured-video-text">Featured Video</h4>
+                            <div class="youtube">
+
+                                <!-- <div class="subscribe-iframe">
+                                    <div class="g-ytsubscribe" data-channelid="UC0UH2LfQvBSeH24bmtbmITw" data-layout="full" data-count="default"></div>
+                                </div> -->
+                                <iframe id="yt-video" src="https://www.youtube.com/embed/OMOjeh_NG-M?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                            <p id="your-video-here">Your video could be here. Help share Cavegame.io with the world.</p>
+                            <a id="video-btn" href="/submit"><i class="fab fa-youtube"></i> <span id="submit-a-video-text">Submit a Video</span></a>
+                            <div id="media-btns">
+                                <!-- <a href="https://www.reddit.com/r/mineroyale/" target="_blank"><i class="fab fa-reddit"></i></a> -->
+                                <a href="https://discord.gg/KaZxSZn" target="_blank"><i class="fab fa-discord"></i></a>
+                                <a href="https://www.youtube.com/c/Loonride" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="https://twitter.com/loonride" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="modal">
+                            <!--<h3>.io game</h3>-->
+                            <div id="logo-container">
+                                <img src="/asset/cavegame-logo.png" class="logo">
+                            </div>
+                            
+                            <form>
+                                <input type="text" id="nickname" placeholder='Nickname' maxlength='13' spellcheck='false' autocomplete="off" autofocus>
+                                <div id="main-play-btn-cont"></div>
+                                
+                                <div id="dropdown-container">
+                                    <select id="select-server">
+                                    </select>
+                                    <select id="select-graphics" class="small">
+                                        <option value="1080">HD (1920x1080)</option>
+                                        <option value="720" selected>Medium (1280x720)</option>
+                                        <option value="480">Low (854x480)</option>
+                                        <!--<option value="360">Extra Low (640x360)</option>-->
+                                    </select>
+                                </div>
+                                <div id="sub-play-btn-cont"></div>
+                            </form>
+
+                            <div class="cont">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- mineroyale-io -->
+                                <ins class="adsbygoogle"
+                                        style="display:inline-block;width:300px;height:250px"
+                                        data-ad-client="ca-pub-1695965098238836"
+                                        data-ad-slot="9344667477"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                                <!-- <div id='cavegame-io_300x250'></div> -->
+                                <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <ins class="adsbygoogle"
+                                    style="display:inline-block;width:300px;height:250px"
+                                    data-ad-client="ca-pub-1695965098238836"
+                                    data-ad-slot="6824718480"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script> -->
+                               
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mini-modal modal limited how-to-play">
+                            
+                            <div>
+                                <p id="signed-in-as"><span id="signed-in-as-text">Signed in as</span> <span id="signed-in-username"></span></p>
+                            </div>
+                            <button id="sign-in-google" class="auth-button"><img src="/asset/logo/google-g.svg"><span id="sign-in-text">Sign In</span></button>
+
+                            <button id="sign-out-google" class="auth-button"><img src="/asset/logo/google-g.svg"><span id="sign-out-text">Sign Out</span></button>
+
+                            <div id="important-server-info">Map reset: Every first day of the month.</div>
+
+                            <div id="ranks">
+                                <span class="current-rank"></span>
+                                <p>Available Ranks:</p>
+                                <table>
+                                    <!-- <tr>
+                                        <td>VIP</td>
+                                        <td>7 days</td>
+                                        <td><div class="activate">Activate</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td>VIP</td>
+                                        <td>7 days</td>
+                                        <td><div class="activate">Activate</div></td>
+                                    </tr> -->
+                                </table>
+                                <span class="bottom-info"></span>
+                            </div>
+
+                            <div id='mineroyale-io_300x250_2'>
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- mineroyale-io -->
+                                <ins class="adsbygoogle"
+                                        style="display:inline-block;width:300px;height:250px"
+                                        data-ad-client="ca-pub-1695965098238836"
+                                        data-ad-slot="9344667477"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                            
+                            <h4 id="how-to-play">How to Play</h4>
+                            <div id="menu-instructions">
+                                <p class="info">Use numbers or scroll to switch items, press <strong>E</strong> to craft, <strong>SHIFT</strong> to sneak</p>
+                                <p class="info">When you are not sneaking, your nickname is always visible</p>
+                                <p class="info">The map shows <strong>mineshafts</strong> (they contain wood) and the <strong>forcefield</strong> (it damages you)</p>
+                                <p class="info">Hold left click to break blocks with your pickaxe</p>
+                                <p class="info">Right click your sword for a boost - better swords give a longer boost</p>
+                                <p class="info">Left click to throw TNT, right click to detonate it (if there are multiple, it detonates the furthest one first)</p>
+                                <p class="info">Drink stew to heal your health</p>
+                            </div>
+                            <h4>Changelog</h4>
+                            <span>9/24/19 - 1.1.8</span>
+                            <p class="info">
+                                Gapples, Chat Filter
+                                <span>• Buffed golden apples (instantly gives full health, faster regen)</span>
+                                <span>• Improved chat profanity filter</span>
+                            </p>
+                            <span>9/23/19 - 1.1.7</span>
+                            <p class="info">
+                                Ignore Players
+                                <span>• Added commands /ignore and /unignore (Only lasts while you and the other player are logged in)</span>
+                            </p>
+                            <span>9/23/19 - 1.1.6</span>
+                            <p class="info">
+                                Connection Fix
+                                <span>• Fixed problem of players not being able to log back in when they lose internet connection</span>
+                                <span>• Added Turkish translation (KMS)</span>
+                            </p>
+                            <span>9/22/19 - 1.1.5</span>
+                            <p class="info">
+                                Golden Apples
+                                <span>• Added apples and golden apples</span>
+                                <span>• Players with no rank now have 1 extra warp (VIP - 2, MVP - 3, Pro - 4)</span>
+                                <span>• Improved some server stability to hopefully prevent random player kicks</span>
+                                <span>• Nerfed bow damage slightly</span>
+                                <span>• Increased time between server restarts</span>
+                                <span>• Warn players not to build bases in the reset region</span>
+                                <span>• Better spawn blocking prevention</span>
+                            </p>
+                            <span>9/7/19 - 1.1.4</span>
+                            <p class="info">
+                                Events
+                                <span>• Added event server and event announcements</span>
+                                <span>• Added Spanish translation (ThugXY28)</span>
+                                <span>• Reduced Golden Compass cooldown to 5 minutes</span>
+                                <span>• Fixed some inventory organization control bugs</span>
+                            </p>
+                            <span>8/31/19 - 1.1.3</span>
+                            <p class="info">
+                                Season 1!
+                                <span>• Map reset today, concluding Season 0</span>
+                                <span>• New translations: Serbian (wii), German (Sky4ce09), French (Salty Bird)</span>
+                                <span>• New players do not spawn in the center the first time, they spawn in the reset region</span>
+                                <span>• Added /logout command to safely log out</span>
+                                <span>• Added 0.5s cooldown for turret placement while in combat</span>
+                            </p>
+                            <a href="/changelog.txt" id="view-full-changelog">View Full Changelog</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="game-overlay">
+            <div class="player-position no-select">23, 12</div>
+
+            <div class="chat no-select">
+                <div class="messages no-select">
+                    <!-- <p>Hello world this is a very very long message very very long llong long</p>
+                    <p>Hello world</p> -->
+                </div>
+                <div class="input-container no-select">
+                    <input type="text" id="chat-input" maxlength='120' spellcheck='false' autocomplete="off" placeholder="T to chat, Enter to send, Esc to exit, Shift-T to toggle chat" class="no-select">
+                </div>
+            </div>
+            <div class="leaderboard no-select">
+                <h3 class="no-select" id="gold-leaderboard-text">Gold Leaderboard</h3><!--id="players-remaining"-->
+                <ol>
+                    
+                </ol>
+                <div class="no-select"><span id="player-count">0</span> <span id="player-leaderboard-text">Players</span> <span id="event-data"></span></div>
+            </div>
+
+            <div id="bullet-count-cont">
+                <h3 id="bullet-count">20</h3>
+            </div>
+
+            <div id="circle-container">
+                <div id="circle"></div>
+                <!-- <span id="circle-text">10</span> -->
+            </div>
+
+            <div id="pickup">
+                <div class="inventory">
+                                
+                </div>
+                <div class="text">
+                    <p class="press-e">Press E to pick up</p>
+                    <p class="title">Diamond Sword</p>
+                    <p class="enchantments">Power 5, Sharpness 3</p>
+                </div>
+            </div>
+
+            <div id="xp-bar" class="powerup-bar upgrades no-select">
+                <div>
+
+                    <div>
+                        <div>
+                            <div class="text-overlay"><span id="level-text"></span>: 0</div>
+                            <div class="progress">
+                                <div>
+                                    <div class="powerup-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forcefield no-select">
+                <h3 id="forcefield-text">Forcefield Closing!</h3>
+                <div><span id="players-remaining">0</span></div>
+            </div>
+
+            <!-- <div class="upgrades">
+                <h3>Upgrades</h3>
+                <div>
+
+                    <div id="reload-upgrade">
+                        <div>
+                            <div class="text-overlay">Reload</div>
+                            <div class="progress">
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn dark"><i class="fas fa-plus-circle"></i></div>
+                    </div>
+
+                    <div id="power-upgrade">
+                        <div>
+                            <div class="text-overlay">Power</div>
+                            <div class="progress">
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn dark"><i class="fas fa-plus-circle"></i></div>
+                    </div>
+
+                    <div id="speed-upgrade">
+                        <div>
+                            <div class="text-overlay">Speed</div>
+                            <div class="progress">
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn dark"><i class="fas fa-plus-circle"></i></div>
+                    </div>
+                </div>
+
+                <p>Coins: <span id="coins">0</span></p>
+            </div> -->
+
+            <div id="chest">
+                <div>
+                    <p class="no-select" id="chest-instructions-text">Press Escape to exit, Click to move item, Shift + Click to move stack</p>
+                </div>
+                <div class="chest-inventory modal-inventory inventory no-select">
+                </div>
+            </div>
+
+            <div id="main-inventory" class="item-inventory inventory dynamic-inventory main-inventory no-select">
+                <!-- <div class="current inv-drag">
+                    <div id="sword-inventory" class="item-cont">
+                        <img src="/asset/scaled/sword_bronze.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+
+                <div class="inv-drag">
+                    <div id="pick-inventory" class="item-cont">
+                        <img src="/asset/scaled/pick_bronze.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                
+                </div>
+                
+                <div class="inv-drag">
+                    <div id="cobble-inventory" class="item-cont">
+                        <img src="/asset/tile/gravel_stone.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                
+                </div>
+                
+                <div class="inv-drag">
+                    <div id="bow-inventory" class="item-cont">
+                        <img src="/asset/scaled/bowArrow.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                
+                </div>
+                
+                <div class="inv-drag">
+                    <div id="tnt-inventory" class="item-cont">
+                        <img src="/asset/tile/tnt.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+
+                <div class="inv-drag">
+                    <div id="stew-inventory" class="item-cont">
+                        <img src="/asset/scaled/stew.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div> -->
+
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+
+            </div>
+
+            <div id="hidden-inventory" class="item-inventory inventory dynamic-inventory no-select">
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+                <div class="inv-drag no-select"></div>
+            </div>
+
+            <div id="item-side-bar" class="item-inventory inventory dynamic-inventory sub-inventory no-select">
+                <div>
+                    <div id="sticks-inventory" class="item-cont">
+                        <img src="/asset/scaled/sticks.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div id="arrow-inventory" class="item-cont">
+                        <img src="/asset/scaled/arrow.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div id="coal-inventory" class="item-cont">
+                        <img src="/asset/scaled/coal.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+                <div>
+                    <div id="iron-inventory" class="item-cont">
+                        <img src="/asset/scaled/iron.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+                <div>
+                    <div id="gold-inventory" class="item-cont">
+                        <img src="/asset/scaled/gold.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+                <div>
+                    <div id="diamond-inventory" class="item-cont">
+                        <img src="/asset/scaled/diamond.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+                <div>
+                    <div id="mushroom-brown-inventory" class="item-cont">
+                        <img src="/asset/scaled/mushroom-brown.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+                <div>
+                    <div id="mushroom-red-inventory" class="item-cont">
+                        <img src="/asset/scaled/mushroom-red.png" draggable="false" class="no-select">
+                        <div class="count no-select">0</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="elimination">
+                <h1 id="elimination-text" class="no-select"><span id="eliminated-text">Eliminated</span> <span id="elimination-name-text"></span></h1>
+            </div>
+
+            <div class="instructions">
+                <h1 id="instructions-text" class="no-select"></h1>
+            </div>
+
+            <div class="view-instructions-container no-select">
+                <div class="view-instructions no-select" id="view-instructions-text">
+                    View Instructions
+                </div>
+                <div class="mini-info no-select">
+                    <p id="e-to-craft" class="no-select">E to craft</p>
+                    <p id="shift-to-sneak" class="no-select">Shift to sneak</p>
+                </div>
+                <div class="deposit-withdraw no-select">
+                    <p><span id="deposit-gold-text">Deposit Gold</span>:</p><p id="deposit-gold" class="signs">+</p><p id="withdraw-gold" class="signs">-</p>
+                </div>
+                <div class="sign-in-game no-select" id="sign-in-game-text">
+                    Sign In (Saves Progress)
+                </div>
+                <div class="troubleshoot-signin no-select">
+                    Sign in failed: <a target="_blank" href="/troubleshoot-signin.txt">Troubleshoot</a>
+                </div>
+            </div>
+
+            <div class="mobile-buttons">
+                <div id="craft-mobile-button"><p><i class="fas fa-hammer"></i></p></div>
+                <div id="fullscreen-mobile-button"><p><i class="fas fa-compress"></i></p></div>
+            </div>
+
+            <!-- <div class="mobile-buttons-right mobile-buttons">
+                <div id="fullscreen-mobile-button"><p><i class="fas fa-compress"></i></p></div>
+            </div> -->
+
+            <div class="exit-button exit-button-bottom no-select"> <!-- id="exit-game-text" -->
+                Exit Game
+            </div>
+
+            <div class="exit-button exit-button-top no-select"> <!-- id="exit-game-text" -->
+                Exit Game
+            </div>
+        </div>
+        <div id="inventory-overlay" class="secondary-modal-container no-select">
+            <div>
+                <table>
+                    <tr>
+                        <td class="tab-selected" data-modal-index="0">
+                            <h3 id="craft-tab-text">Craft</h3>
+                        </td>
+                        <td data-modal-index="1" class="shop-tab-button">
+                            <h3 id="buy-tab-text">Buy</h3>
+                        </td>
+                        <td data-modal-index="2" class="shop-tab-button">
+                            <h3 id="sell-tab-text">Sell</h3>
+                        </td>
+                    </tr>
+                </table>
+                <div id="craft-modal" class="modal modal-tab-selected inventory-modal" data-modal-index="0">
+                    <div>
+                        
+                    </div>
+                </div>
+
+                <div class="modal inventory-modal" id="buy-modal" data-modal-index="1">
+                    <div id="buy-item">
+                        <h3 id="select-an-item-text">Select an Item</h3>
+                        <!-- search filter -->
+                        <input type="text" placeholder="Search" id="buy-search" maxlength="50" spellcheck='false' autocomplete="off">
+                        <div class="modal-inventory inventory">
+                        
+                        </div>
+                        <div class="shop-arrows">
+                            <span id="page-left"><i class="fas fa-arrow-alt-circle-left"></i></span>
+                            <span id="page-right"><i class="fas fa-arrow-alt-circle-right"></i></span>
+                        </div>
+                    </div>
+                    <div id="buy-item-2">
+
+                        <p id="buy-count-text">Count</p>
+                        <input type="number" id="buy-count">
+                        <div class="modal-inventory inventory">
+                        
+                        </div>
+                        
+                        <div>
+                            <button id="buy">Buy</button>
+                        </div>
+
+                        <span id="buy-err" class="err">Not enough gold!</span>
+                    </div>
+                    <!-- Dialog with: set count, price updates, Buy -->
+                </div>
+
+                <div class="modal inventory-modal" id="sell-modal" data-modal-index="2">
+                    <div>
+                        <div id="sell-step-1">
+                            <button id="sell-an-item">Sell an Item</button>
+                            <h3 id="my-items-on-sale-text">My Items on Sale</h3>
+                            <p id="click-item-to-take-off-text">Click an item to take it off the market</p>
+                            <!-- Click item to take off the market -->
+                            <div id="my-items">
+                                <div class="modal-inventory inventory">
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sell-step-2">
+                            <!-- Click the item you want to sell -->
+                            <h2 id="click-item-to-sell">Click the item you want to sell</h2>
+
+                            <div id="sell-final">
+                                <p id="sell-final-count-text">Count</p>
+                                <input type="number" id="sell-count">
+                                <p>Price <img src="asset/scaled/gold.png" class="gold-img"></p>
+                                <input type="number" id="sell-price">
+                                
+                                <div class="modal-inventory inventory">
+                                
+                                </div>
+
+                                <div>
+                                    <button id="sell">Sell</button>
+                                </div>
+                                
+                                <span id="sell-err" class="err"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Enter the number of items (limits between 1 and max), and the cost (limit at 999) -->
+                            <!-- Sell - prevent button input while processing -->
+                        </div>
+                        <div>
+                            <!-- Success message, or failure message -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="game-overlay">
+            <div id="crafting-desc" class="item-tt no-select">Hello</div>
+        </div>
+        <div id="gameover-overlay" class="secondary-modal-container">
+            <table>
+                <tr>
+                    <!-- <td>
+                        <div class="mini-modal modal">
+                            <h3>loons.io</h3>
+                        </div>
+                    </td> -->
+                    <td>
+                        <div class="modal">
+                            <h3 id="game-over-title">Game Over</h3>
+                            <div>
+                                <!-- <p>Final score: <span id="final-score"></span></p> -->
+                                <p class="stats-game-place"><span id="game-place-text">Place</span>: <span id="game-place"></span></p>
+                                <p><span id="kill-count-text">Kills</span>: <span id="kill-count"></span></p>
+                                <p class="stats-final-score"><span id="final-score-text">Final Score</span>: <span id="final-score"></span></p>
+                                <p class="no-mobile-gameover"><span id="damage-dealt-text">Damage Dealt</span>: <span id="damage-dealt"></span></p>
+                                <p class="no-mobile-gameover"><span id="damage-taken-text">Damage Taken</span>: <span id="damage-taken"></span></p>
+                                <p class="no-mobile-gameover"><span id="tnt-thrown-text">TNT Thrown</span>: <span id="tnt-thrown"></span></p>
+                                <p class="no-mobile-gameover"><span id="arrows-shot-text">Arrows Shot</span>: <span id="arrows-shot"></span></p>
+                                <p class="no-mobile-gameover"><span id="blocks-mined-text">Blocks Mined</span>: <span id="blocks-mined"></span></p>
+                                <!-- <p>Respawn with: <span id="respawn-coins"></span> coins</p> -->
+                            </div>
+                            <button id="menu">Main Menu</button>
+                            <button id="retry">Spectate</button>
+
+                            <div class="cont">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- mineroyale-io -->
+                                <ins class="adsbygoogle"
+                                        style="display:inline-block;width:300px;height:250px"
+                                        data-ad-client="ca-pub-1695965098238836"
+                                        data-ad-slot="9344667477"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                                <!-- <div id='mineroyale-io_300x250_2'></div> -->
+                                <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <ins class="adsbygoogle"
+                                    style="display:inline-block;width:300px;height:250px"
+                                    data-ad-client="ca-pub-1695965098238836"
+                                    data-ad-slot="6824718480"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script> -->
+                            </div>
+                        </div>
+                    </td>
+                    <!-- <td>
+                        <div class="mini-modal modal">
+                            <h3>loons.io</h3>
+                        </div>
+                    </td> -->
+                </tr>
+            </table>
+        </div>
+
+        <div id="final-signin-warning-overlay" class="secondary-modal-container">
+            <table>
+                <tr>
+                    <!-- <td>
+                        <div class="mini-modal modal">
+                            <h3>loons.io</h3>
+                        </div>
+                    </td> -->
+                    <td>
+                        <div class="modal">
+                            <h3 id="last-chance-title">Last Chance to Sign In</h3>
+                            <p id="last-chance-text">This is your last chance to sign in and save your progress before the server restarts. If you do not sign in, your items will be lost.</p>
+                            <button id="do-final-signin">Sign In</button>
+                            <button id="no-thanks-final-signin">No Thanks</button>
+
+                            <div class="cont">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- mineroyale-io -->
+                                <ins class="adsbygoogle"
+                                        style="display:inline-block;width:300px;height:250px"
+                                        data-ad-client="ca-pub-1695965098238836"
+                                        data-ad-slot="9344667477"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                                <!-- <div id='mineroyale-io_300x250_2'></div> -->
+                                <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <ins class="adsbygoogle"
+                                    style="display:inline-block;width:300px;height:250px"
+                                    data-ad-client="ca-pub-1695965098238836"
+                                    data-ad-slot="6824718480"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script> -->
+                            </div>
+                        </div>
+                    </td>
+                    <!-- <td>
+                        <div class="mini-modal modal">
+                            <h3>loons.io</h3>
+                        </div>
+                    </td> -->
+                </tr>
+            </table>
+        </div>
+
+        <div id="disconnect-overlay" class="secondary-modal-container">
+            <table>
+                <tr>
+                    <!-- <td>
+                        <div class="mini-modal modal">
+                            <h3>loons.io</h3>
+                        </div>
+                    </td> -->
+                    <td>
+                        <div class="modal">
+                            <h3>Disconnected</h3>
+                            <div>
+                                <p>Connection error</p>
+                            </div>
+                            <button id="menu-disconnect">Main Menu</button>
+
+                            <div class="cont">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- mineroyale-io -->
+                                <ins class="adsbygoogle"
+                                        style="display:inline-block;width:300px;height:250px"
+                                        data-ad-client="ca-pub-1695965098238836"
+                                        data-ad-slot="9344667477"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                                <!-- <div id='mineroyale-io_300x250_3'></div> -->
+                                <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <ins class="adsbygoogle"
+                                    style="display:inline-block;width:300px;height:250px"
+                                    data-ad-client="ca-pub-1695965098238836"
+                                    data-ad-slot="6824718480"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script> -->
+                            </div>
+                        </div>
+                    </td>
+                    <!-- <td>
+                        <div class="mini-modal modal">
+                            <h3>loons.io</h3>
+                        </div>
+                    </td> -->
+                </tr>
+            </table>
+        </div>
+        <div id="phaser-example"></div>
+    <!-- <script src="https://apis.google.com/js/platform.js"></script> -->
+    <script type="text/javascript" src="main.3e0aa96cf5dbce57db1f.js"></script></body>
+ </html>
