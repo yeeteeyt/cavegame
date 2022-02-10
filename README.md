@@ -9,7 +9,7 @@
 	<img alt="Stars" src="https://img.shields.io/github/stars/yeeteeyt/cavegame?logo=GitHub&logoColor=white&style=for-the-badge">
 </a>⠀
 
-<a href = "https://github.com/yeeteeyt/cavegame/tree/main">	
+<a href = "https://github.com/yeeteeyt/cavegame/find/main">	
 	<img alt="Data" src="https://img.shields.io/github/repo-size/yeeteeyt/cavegame?color=lightblue&label=Data&logo=GitHub&logoColor=white&style=for-the-badge">
 </a>⠀
 
