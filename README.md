@@ -31,3 +31,6 @@ _____
 - [index.html](https://github.com/yeeteeyt/cavegame/blob/909d79694c6ee8412f53d1025864d63f54d15897/index.html) - The code to the GitHub page
 - [codes.css](https://github.com/yeeteeyt/cavegame/blob/909d79694c6ee8412f53d1025864d63f54d15897/codes.css) - The formatting
 - [codes.js](https://github.com/yeeteeyt/cavegame/blob/909d79694c6ee8412f53d1025864d63f54d15897/codes.js) - The code to the game itself
+
+**Stop forking this and doing nothing with it, I don't need to know about it. just download the ZIP file and fuck off**
+*thank you!*
