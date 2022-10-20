@@ -31,3 +31,7 @@ _____
 - [index.html](https://github.com/yeeteeyt/cavegame/blob/909d79694c6ee8412f53d1025864d63f54d15897/index.html) - The code to the GitHub page
 - [codes.css](https://github.com/yeeteeyt/cavegame/blob/909d79694c6ee8412f53d1025864d63f54d15897/codes.css) - The formatting
 - [codes.js](https://github.com/yeeteeyt/cavegame/blob/909d79694c6ee8412f53d1025864d63f54d15897/codes.js) - The code to the game itself
+
+
+
+ANYWAYS, when I'm done, I will ban all of those edgy school age kiddos
