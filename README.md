@@ -35,3 +35,4 @@ _____
 
 
 ANYWAYS, when I'm done, I will ban all of those edgy school age kiddos
+UPDATE: as of now, I'm pretty much done except for a server, which I will NOT be doing. I'm not going to risk copyright claims or whatever, and I don't want to host a server because 1) dunno how, 2) time consuming, and 3) recourse heavy
